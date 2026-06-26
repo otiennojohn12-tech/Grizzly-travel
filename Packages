@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Packages - Grizzly Travel</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background-color:#1a1a1a;color:white;font-family:Poppins,sans-serif;padding:20px;}
+nav{display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid #333;}
+.logo{font-size:20px;color:#f5a623;font-weight:bold;}
+.links a{color:white;text-decoration:none;margin-left:20px;}
+.links a:hover{color:#f5a623;}
+h1{color:#f5a623;margin:30px 0 10px;}
+h2{color:#f5a623;margin-bottom:8px;}
+.package{background-color:#262626;border:1px solid #333;border-radius:10px;padding:20px;margin-top:30px;}
+.package img{width:100%;border-radius:8px;height:200px;object-fit:cover;margin-bottom:15px;}
+.badge{background:#f5a623;color:black;font-size:12px;font-weight:600;padding:4px 10px;border-radius:20px;display:inline-block;margin-bottom:10px;}
+.package p{color:#ccc;font-size:14px;line-height:1.6;margin-bottom:10px;}
+.highlights h3,.inclusions h3{color:#f5a623;font-size:14px;margin-bottom:6px;margin-top:10px;}
+.highlights li,.inclusions li{color:#ccc;font-size:14px;margin-left:18px;line-height:1.8;}
+.price-row{display:flex;justify-content:space-between;align-items:center;margin-top:15px;flex-wrap:wrap;gap:10px;}
+.price{color:#f5a623;font-size:18px;font-weight:700;}
+button{background-color:#f5a623;color:black;padding:10px 20px;border:none;font-size:15px;border-radius:6px;cursor:pointer;}
+footer{margin-top:50px;padding:30px 20px;border-top:1px solid #333;text-align:center;}
+.footer-links{margin-bottom:15px;}
+.footer-links a{color:#f5a623;text-decoration:none;margin:0 15px;font-size:14px;}
+</style>
+</head>
+<body>
+<nav>
+<div class="logo">Grizzly Travel</div>
+<div class="links">
+<a href="index.html">Home</a>
+<a href="packages.html">Packages</a>
+<a href="contact.html">Contact</a>
+</div>
+</nav>
+<h1>Our Packages</h1>
+<div class="package">
+<img src="https://images.unsplash.com/photo-1516426122078-c23e76319801?w=800" alt="Maasai Mara">
+<span class="badge">4 Days / 3 Nights</span>
+<h2>Maasai Mara Safari</h2>
+<p>Experience the world-famous Maasai Mara — home to the Big Five and the Great Migration.</p>
+<div class="highlights">
+<h3>Highlights</h3>
+<ul>
+<li>Game drives in the Mara</li>
+<li>Maasai village visit</li>
+<li>Sunrise hot air balloon option</li>
+<li>Big Five sightings</li>
+</ul>
+</div>
+<div class="inclusions">
+<h3>Inclusions</h3>
+<ul>
+<li>Transport from Nairobi</li>
+<li>Full board accommodation</li>
+<li>Professional guide</li>
+<li>Park fees</li>
+</ul>
+</div>
+<div class="price-row">
+<span class="price">From KES 45,000</span>
+<a href="https://wa.me/254746404366" target="_blank"><button>Book Now</button></a>
+</div>
+</div>
+<div class="package">
+<img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800" alt="Swahili Coast">
+<span class="badge">5 Days / 4 Nights</span>
+<h2>Swahili Coast</h2>
+<p>From the ancient streets of Mombasa Old Town to the pristine beaches of Lamu.</p>
+<div class="highlights">
+<h3>Highlights</h3>
+<ul>
+<li>Mombasa Old Town tour</li>
+<li>Lamu Island dhow ride</li>
+<li>Fort Jesus visit</li>
+<li>Beach relaxation at Diani</li>
+</ul>
+</div>
+<div class="inclusions">
+<h3>Inclusions</h3>
+<ul>
+<li>Flights or transport</li>
+<li>Hotel accommodation</li>
+<li>Tour guide</li>
+<li>Selected meals</li>
+</ul>
+</div>
+<div class="price-row">
+<span class="price">From KES 38,000</span>
+<a href="https://wa.me/254746404366" target="_blank"><button>Book Now</button></a>
+</div>
+</div>
+<div class="package">
+<img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=800" alt="Western Kenya">
+<span class="badge">4 Days / 3 Nights</span>
+<h2>Western Kenya Heartland</h2>
+<p>Explore the soul of western Kenya — Lake Victoria, Luo culture, and Kisumu city.</p>
+<div class="highlights">
+<h3>Highlights</h3>
+<ul>
+<li>Lake Victoria boat ride</li>
+<li>Kisumu Impala Sanctuary</li>
+<li>Luo cultural experience</li>
+<li>Kit Mikayi rock visit</li>
+</ul>
+</div>
+<div class="inclusions">
+<h3>Inclusions</h3>
+<ul>
+<li>Transport from Nairobi</li>
+<li>Hotel accommodation</li>
+<li>Tour guide</li>
+<li>Breakfast and dinner</li>
+</ul>
+</div>
+<div class="price-row">
+<span class="price">From KES 32,000</span>
+<a href="https://wa.me/254746404366" target="_blank"><button>Book Now</button></a>
+</div>
+</div>
+<footer>
+<div class="footer-links">
+<a href="https://instagram.com/choggo22" target="_blank">Instagram</a>
+<a href="https://tiktok.com/@choggo22" target="_blank">TikTok</a>
+<a href="https://wa.me/254746404366" target="_blank">WhatsApp</a>
+</div>
+<p>&copy; 2025 Grizzly Travel. All rights reserved.</p>
+</footer>
+</body>
+</html>
